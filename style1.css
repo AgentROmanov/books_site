@@ -25,10 +25,8 @@ img {
 
 #header_menu_right {
     display: flex;
-    /* justify-content: end; */
     align-items: center;
     color: #727c96;
-    padding: 5px;
 }
 
 #gray_round_size_black {
@@ -51,18 +49,13 @@ img {
 #color {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-left: 15px;
-    height: 100%;
-}
-
-.header_menu_right_text:hover {
-    background: #15a4fa;
+    height: 50px;
+    width: 90px;
+    background-color: #15a4fa;
     color: white;
-}
-
-#color:hover {
-    background: #15a4fa;
-    color: white;
+    padding-left: 15px;
 }
 
 
@@ -190,6 +183,7 @@ ul {
     font-size: 25px;
     border-bottom: solid 2px silver;
     padding-bottom: 15px;
+    color: #50586e;
 }
 
 #searchField {
@@ -211,6 +205,7 @@ ul {
 
 .searchField_menu_text {
     color: #a6afc4;
+    font-weight: 600;
 }
 
 .searchField_menu_text:hover {
@@ -353,19 +348,22 @@ ul {
 
 #footer_elements {
     display: flex;
-    /* justify-content: end; */
     align-items: center;
-    padding: 3px;
 }
 
 #footer_elements_question {
+    display: flex;
+    align-items: center;
     background: #1f2637;
+    height: 46px;
+    width: 50px;
 }
 
-#footer_elements_question:hover {
+#footer_elements_setting {
+    display: flex;
+    align-items: center;
+    justify-content: calc(2%);
     background: #15a4fa;
-}
-
-#footer_elements_setting:hover {
-    background: #15a4fa;
+    height: 46px;
+    width: 50px;
 }

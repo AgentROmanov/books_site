@@ -84,11 +84,24 @@
                 <span>Browse Available Books</span>
             </div>
             <div id="searchField">
+                <!-- Radio Chips -->
                 <div id="searchField_menu">
-                    <span class="searchField_menu_text">All Books</span>
-                    <span class="searchField_menu_text">Most Recent</span>
-                    <span class="searchField_menu_text">Most Popular</span>
-                    <span class="searchField_menu_text">Free Books</span>
+                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false">
+                        <input type="radio" name="radioEx" />
+                        <span class="chipstext">All Books</span>
+                    </div>
+                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false">
+                        <input type="radio" name="radioEx" />
+                        <span class="chipstext">Most Recent</span>
+                    </div>
+                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false">
+                        <input type="radio" name="radioEx" />
+                        <span class="chipstext">Most Popular</span>
+                    </div>
+                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false">
+                        <input type="radio" name="radioEx" />
+                        <span class="chipstext">Free Books</span>
+                    </div>
                 </div>
                 <div id="search-box">
                     <input type="text" id="search-txt" placeholder="Enter Keywords">

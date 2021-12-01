@@ -86,22 +86,14 @@
             <div id="searchField">
                 <!-- Radio Chips -->
                 <div id="searchField_menu">
-                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false" checked>
-                        <input type="radio" name="radioEx" />
-                        <span class="chipstext">All Books</span>
-                    </div>
-                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false">
-                        <input type="radio" name="radioEx" />
-                        <span class="chipstext">Most Recent</span>
-                    </div>
-                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false">
-                        <input type="radio" name="radioEx" />
-                        <span class="chipstext">Most Popular</span>
-                    </div>
-                    <div class="chip chip-checkbox" aria-labelledby="chipstext" tabindex="0" role="radio" aria-checked="false">
-                        <input type="radio" name="radioEx" />
-                        <span class="chipstext">Free Books</span>
-                    </div>
+                    <input name="radioEx" checked="checked" type="radio" class="main_books__chip" id="all_books" />
+                    <label class="main_books__label" for="all_books">All Books</label>
+                    <input name="radioEx" type="radio" class="main_books__chip" id="most_recent" />
+                    <label class="main_books__label" for="most_recent">Most Recent</label>
+                    <input name="radioEx" type="radio" class="main_books__chip" id="most_popular" />
+                    <label class="main_books__label" for="most_popular">Most Popular</label>
+                    <input name="radioEx" type="radio" class="main_books__chip" id="free_books" />
+                    <label class="main_books__label" for="free_books">Free Books</label>
                 </div>
                 <div id="search-box">
                     <input type="text" id="search-txt" placeholder="Enter Keywords">

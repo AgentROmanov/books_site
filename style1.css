@@ -84,6 +84,10 @@ button {
     border-radius: 5%;
 }
 
+button:active {
+    background: #e0522e;
+}
+
 li {
     list-style-type: none;
     padding: 10px;
@@ -131,6 +135,7 @@ ul {
     overflow-y: scroll;
     flex: 1;
     padding-left: 16px;
+    margin-bottom: 0;
 }
 
 .color4::before {
@@ -206,27 +211,23 @@ ul {
     margin-left: 10px;
 }
 
-.chipstext {
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.chip>* {
-    margin-right: 8px;
-    margin-left: 8px;
-    color: #757373;
-}
-
-.chip input {
+.main_books__chip {
     display: none;
 }
 
-.chip:hover,
-.chip:focus,
-.chipstext:hover {
-    background: #98b4ce;
-    border-radius: 20px;
+.main_books__label {
+    height: 20px;
+    color: #8C97B2;
+    margin-left: 25px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.main_books__chip:checked+.main_books__label {
     color: white;
+    background-color: #97B3CE;
 }
 
 
